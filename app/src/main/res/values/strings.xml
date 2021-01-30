@@ -1,6 +1,3 @@
 <resources>
     <string name="app_name">Cantinho dos Animais</string>
-    <string name="title_activity_homepage">Homepage</string>
-    <string name="tab_text_1">Adotar</string>
-    <!-- <string name="tab_text_2">Tab 2</string> -->
 </resources>
