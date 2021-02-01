@@ -9,8 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CantinhoDosAnimais">
-        <activity android:name=".SignUpActivity"></activity>
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".AdoptionQuestionnaireActivity"></activity>
+        <activity android:name=".SeeAnimalActivity" />
+        <activity android:name=".AddAnimalActivity" />
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".MainActivity" />
         <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

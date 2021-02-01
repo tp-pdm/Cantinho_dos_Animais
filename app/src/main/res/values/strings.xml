@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">Cantinho dos Animais</string>
     <string name="nome_completo">Associação Cantinho dos Animais de Beja</string>
+
+    <string-array name="spinnerGenero">
+        <item> Macho </item>
+        <item> Fêmea </item>
+    </string-array>
 </resources>

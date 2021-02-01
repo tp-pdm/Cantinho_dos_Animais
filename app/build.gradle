@@ -4,7 +4,7 @@ plugins {
 
 android {
     compileSdkVersion 30
-    buildToolsVersion "29.0.3"
+    buildToolsVersion '28.0.3'
 
     defaultConfig {
         applicationId "pt.ipbeja.pdm.cantinhodosanimais"
@@ -31,7 +31,7 @@ android {
 dependencies {
 
     implementation 'androidx.appcompat:appcompat:1.2.0'
-   // implementation 'com.android:design:25.3.1'
+    complile 'com.android:design:25.3.1'
     implementation 'com.google.android.material:material:1.2.1'
     implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
     testImplementation 'junit:junit:4.+'
