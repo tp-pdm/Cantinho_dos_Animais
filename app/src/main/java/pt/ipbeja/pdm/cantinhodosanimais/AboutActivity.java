@@ -10,13 +10,14 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class AddAnimalActivity extends Fragment {
+public class AboutActivity extends Fragment {
 
     View v;
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return v = inflater.inflate(R.layout.activity_add_animal, container, false);
+        v = inflater.inflate(R.layout.activity_about, container, false);
+        return v;
     }
 }

@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -35,30 +36,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/img_logo" />
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/textInputLayout_full_name"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="48dp"
-        android:layout_marginEnd="32dp"
-        android:textColorHint="@color/black"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView7">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/input_full_name"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/text_input_border"
-            android:drawableStart="@drawable/ic_identity"
-            android:drawablePadding="16dp"
-            android:hint="Nome Completo"
-            android:padding="16dp"
-            android:textColor="@color/black"
-            android:textColorHint="@color/black" />
-    </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputLayout_username"
@@ -70,7 +47,7 @@
         android:textColorHint="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textInputLayout_full_name">
+        app:layout_constraintTop_toBottomOf="@id/textView7">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/input_username"
@@ -133,7 +110,6 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="18dp"
         android:layout_marginEnd="32dp"
-        android:onClick="callSignupActivity"
         android:text="TEM CONTA? ENTRE AQUI!"
         android:textAlignment="center"
         android:textColor="@color/blue"
@@ -153,16 +129,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_registar" />
 
-    <ImageView
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="32dp"
-        android:src="@drawable/ic_facebook"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_login" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

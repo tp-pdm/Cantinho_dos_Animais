@@ -9,11 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CantinhoDosAnimais">
-        <activity android:name=".AdoptionQuestionnaireActivity"></activity>
-        <activity android:name=".SeeAnimalActivity" />
-        <activity android:name=".AddAnimalActivity" />
-        <activity android:name=".SignUpActivity" />
-        <activity android:name=".MainActivity" />
+        <!--<fragment android:name=".AboutActivity"></activity>-->
+        <activity android:name=".MainContainerAdminActivity" />
+        <activity android:name=".MainContainerUserActivity" />
+        <!--<fragment android:name=".UserAdoptionsActivity" />
+        <fragment android:name=".AdminAdoptionsActivity" />
+        <fragment android:name=".MainAdminActivity" />-->
         <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,6 +22,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".AdoptionQuestionnaireActivity" />
+        <activity android:name=".SeeAnimalActivity" />
+       <!-- <fragment android:name=".AddAnimalActivity" />
+        <fragment android:name=".MainUserActivity" />-->
+        <activity android:name=".SignUpActivity" />
 
         <meta-data
             android:name="preloaded_fonts"
