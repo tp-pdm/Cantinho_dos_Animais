@@ -19,7 +19,7 @@ import pt.ipbeja.pdm.cantinhodosanimais.R;
 public class SectionsPagerAdapter extends FragmentPagerAdapter {
 
     @StringRes
-    private static final int[] TAB_TITLES = new int[]{R.string.tab_text_1};
+    private static final int[] TAB_TITLES = new int[]{R.string.title_activity_homepage};
     private final Context mContext;
 
     public SectionsPagerAdapter(Context context, FragmentManager fm) {
